@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-34:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Xermy\\.gradle\\caches\\9.0.0\\transforms\\4f19566ccf0a4bbf0cd9ca74302c5f57\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

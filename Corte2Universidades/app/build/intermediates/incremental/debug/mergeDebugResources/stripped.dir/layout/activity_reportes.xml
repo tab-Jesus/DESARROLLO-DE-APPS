@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Archivo: app/src/main/res/layout/activity_reportes.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- Botones de selección de reporte -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#1A237E">
+
+        <Button
+            android:id="@+id/btnReporteA"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="R-A"
+            android:textSize="12sp"
+            android:backgroundTint="#3949AB"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnReporteB"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="R-B"
+            android:textSize="12sp"
+            android:backgroundTint="#3949AB"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnReporteC"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="R-C"
+            android:textSize="12sp"
+            android:backgroundTint="#3949AB"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnReporteD"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="R-D"
+            android:textSize="12sp"
+            android:backgroundTint="#3949AB"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- REPORTE A: Filtrar por País -->
+            <LinearLayout
+                android:id="@+id/layoutReporteA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reporte A: Universidades por País"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A237E"
+                    android:layout_marginBottom="12dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingresa el País"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnFiltrarA"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="FILTRAR"
+                    android:backgroundTint="#1A237E"/>
+            </LinearLayout>
+
+            <!-- REPORTE B: Filtrar por Num Carreras -->
+            <LinearLayout
+                android:id="@+id/layoutReporteB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reporte B: Universidades con Mínimo N Carreras"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A237E"
+                    android:layout_marginBottom="12dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Número mínimo de carreras"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etMinCarreras"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnFiltrarB"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="FILTRAR"
+                    android:backgroundTint="#1A237E"/>
+            </LinearLayout>
+
+            <!-- REPORTE C: Filtrar carreras por Universidad -->
+            <LinearLayout
+                android:id="@+id/layoutReporteC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reporte C: Carreras por Universidad"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A237E"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selecciona la universidad:"
+                    android:textSize="13sp"
+                    android:textColor="#757575"
+                    android:layout_marginBottom="4dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerUniversidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@drawable/spinner_background"
+                    android:layout_marginBottom="12dp"
+                    android:padding="8dp"/>
+
+                <Button
+                    android:id="@+id/btnFiltrarC"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="FILTRAR"
+                    android:backgroundTint="#1A237E"/>
+            </LinearLayout>
+
+            <!-- REPORTE D: Filtrar carreras por Nivel -->
+            <LinearLayout
+                android:id="@+id/layoutReporteD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reporte D: Carreras por Nivel de Formación"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A237E"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selecciona el nivel:"
+                    android:textSize="13sp"
+                    android:textColor="#757575"
+                    android:layout_marginBottom="4dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerNivel"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@drawable/spinner_background"
+                    android:layout_marginBottom="12dp"
+                    android:padding="8dp"/>
+
+                <Button
+                    android:id="@+id/btnFiltrarD"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="FILTRAR"
+                    android:backgroundTint="#1A237E"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvResultCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="13sp"
+        android:textColor="#1A237E"
+        android:textStyle="bold"
+        android:background="#E8EAF6"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>

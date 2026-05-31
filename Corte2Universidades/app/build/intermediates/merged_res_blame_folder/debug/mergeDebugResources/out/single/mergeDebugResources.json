@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/menu_menu_main.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/drawable_spinner_background.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_activity_universidades.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_universidades.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_activity_reportes.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_reportes.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_item_universidad.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/item_universidad.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_activity_universidad_form.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_universidad_form.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_item_carrera.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/item_carrera.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_activity_carrera_form.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_carrera_form.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_activity_carreras.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_carreras.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-debug-36:/layout_activity_menu.xml.flat",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_menu.xml"
+    }
+]

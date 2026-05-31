@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Archivo: app/src/main/AndroidManifest.xml -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.tuuniversidad.corte2universidades"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.13.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\dadc6f5fd2a2b2e4e8801dd8f6cac113\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+16        android:name="com.tuuniversidad.corte2universidades.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.13.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\dadc6f5fd2a2b2e4e8801dd8f6cac113\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.13.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\dadc6f5fd2a2b2e4e8801dd8f6cac113\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.tuuniversidad.corte2universidades.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.13.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\dadc6f5fd2a2b2e4e8801dd8f6cac113\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.13.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\dadc6f5fd2a2b2e4e8801dd8f6cac113\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:8:5-33:19
+22        android:allowBackup="true"
+22-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.13.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\dadc6f5fd2a2b2e4e8801dd8f6cac113\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Corte2Universidades"
+31-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:14:9-57
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:15:9-44
+33        <activity
+33-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:17:9-24:20
+34            android:name="com.tuuniversidad.corte2universidades.activities.LoginActivity"
+34-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:18:13-53
+35            android:exported="true" >
+35-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:19:13-36
+36            <intent-filter>
+36-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:20:13-23:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:22:17-77
+39-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:22:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:26:9-85
+43            android:name="com.tuuniversidad.corte2universidades.activities.MenuActivity"
+43-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:26:19-58
+44            android:exported="false" />
+44-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:26:59-83
+45        <activity
+45-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:27:9-94
+46            android:name="com.tuuniversidad.corte2universidades.activities.UniversidadesActivity"
+46-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:27:19-67
+47            android:exported="false" />
+47-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:27:68-92
+48        <activity
+48-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:28:9-96
+49            android:name="com.tuuniversidad.corte2universidades.activities.UniversidadFormActivity"
+49-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:28:19-69
+50            android:exported="false" />
+50-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:28:70-94
+51        <activity
+51-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:29:9-89
+52            android:name="com.tuuniversidad.corte2universidades.activities.CarrerasActivity"
+52-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:29:19-62
+53            android:exported="false" />
+53-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:29:63-87
+54        <activity
+54-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:30:9-92
+55            android:name="com.tuuniversidad.corte2universidades.activities.CarreraFormActivity"
+55-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:30:19-65
+56            android:exported="false" />
+56-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:30:66-90
+57        <activity
+57-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:31:9-89
+58            android:name="com.tuuniversidad.corte2universidades.activities.ReportesActivity"
+58-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:31:19-62
+59            android:exported="false" />
+59-->C:\Users\Xermy\Downloads\Corte2Universidades\Corte2Universidades\app\src\main\AndroidManifest.xml:31:63-87
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\01ab49d121123169116db2ac0ef785e2\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\01ab49d121123169116db2ac0ef785e2\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.tuuniversidad.corte2universidades.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\01ab49d121123169116db2ac0ef785e2\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\01ab49d121123169116db2ac0ef785e2\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\01ab49d121123169116db2ac0ef785e2\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\01ab49d121123169116db2ac0ef785e2\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\01ab49d121123169116db2ac0ef785e2\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\2ab302b97378dbb8787fcfe0455af88f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\2ab302b97378dbb8787fcfe0455af88f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\2ab302b97378dbb8787fcfe0455af88f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+73                android:value="androidx.startup" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+74        </provider>
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Xermy\.gradle\caches\9.0.0\transforms\9c40adc95b92621005a4d41766220c0d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>

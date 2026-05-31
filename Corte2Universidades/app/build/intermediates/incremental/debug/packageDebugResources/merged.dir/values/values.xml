@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add">Agregar</string>
+    <string name="app_name">Universidades App</string>
+    <string name="cancel">Cancelar</string>
+    <string name="careers">Carreras</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="email">Email</string>
+    <string name="filter">Filtrar</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="password">Contraseña</string>
+    <string name="reports">Reportes</string>
+    <string name="save">Guardar</string>
+    <string name="universities">Universidades</string>
+    <style name="Theme.Corte2Universidades" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#1A237E</item>
+        <item name="colorPrimaryVariant">#0D1B6E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#3949AB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+    </style>
+</resources>

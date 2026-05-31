@@ -1,5 +1,5 @@
 # Corte 2 – Universidades App
-**Estudiante:** [Tu nombre completo]  
+**Estudiante:** JESUS DAVID CAMPO YUNES  
 **Código:** 7502410028  
 **Ejercicio:** #2 – Tabla Universidades  
 **Tecnología:** Android Studio (Kotlin) + Supabase + EmailJS

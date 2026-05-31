@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/item_universidad.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/item_universidad.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/item_carrera.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/item_carrera.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/activity_universidad_form.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_universidad_form.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/activity_carrera_form.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_carrera_form.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/activity_login.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/activity_menu.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/activity_reportes.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_reportes.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/activity_universidades.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_universidades.xml"
+    },
+    {
+        "merged": "com.tuuniversidad.corte2universidades.app-mergeDebugResources-35:/layout/activity_carreras.xml",
+        "source": "com.tuuniversidad.corte2universidades.app-main-38:/layout/activity_carreras.xml"
+    }
+]

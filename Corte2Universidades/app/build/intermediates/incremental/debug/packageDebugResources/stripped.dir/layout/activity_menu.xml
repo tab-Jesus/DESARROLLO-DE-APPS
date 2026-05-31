@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Archivo: app/src/main/res/layout/activity_menu.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué deseas gestionar hoy?"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnUniversidades"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="🏛️  Universidades"
+        android:textSize="16sp"
+        android:backgroundTint="#1A237E"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCarreras"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="📚  Carreras"
+        android:textSize="16sp"
+        android:backgroundTint="#283593"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnReportes"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="📊  Reportes"
+        android:textSize="16sp"
+        android:backgroundTint="#303F9F"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="CERRAR SESIÓN"
+        android:backgroundTint="#D32F2F"/>
+
+</LinearLayout>
