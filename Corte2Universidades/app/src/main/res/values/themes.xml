@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Archivo: app/src/main/res/values/themes.xml -->
+<resources>
+    <style name="Theme.Corte2Universidades" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#1A237E</item>
+        <item name="colorPrimaryVariant">#0D1B6E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#3949AB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+    </style>
+</resources>

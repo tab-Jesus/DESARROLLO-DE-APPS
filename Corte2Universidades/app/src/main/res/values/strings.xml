@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Archivo: app/src/main/res/values/strings.xml -->
+<resources>
+    <string name="app_name">Universidades App</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="add">Agregar</string>
+    <string name="reports">Reportes</string>
+    <string name="universities">Universidades</string>
+    <string name="careers">Carreras</string>
+    <string name="filter">Filtrar</string>
+</resources>
